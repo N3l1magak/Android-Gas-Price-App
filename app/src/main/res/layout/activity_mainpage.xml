@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainpage"
+    android:orientation="vertical"
+    android:background="@drawable/gas_station"
+    >
+
+
+    <Button
+        android:id="@+id/gps_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Show gas prices near me"
+        android:textColor="#FDE300" />
+
+    <Button
+        android:id="@+id/enter_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gps_location"
+        android:layout_centerHorizontal="true"
+        android:text="Search gas price in a location"
+        android:textColor="@color/teal_200" />
+
+</RelativeLayout>
