@@ -245,7 +245,7 @@ public class GetGPStoSearch extends AppCompatActivity implements View.OnClickLis
                             .url("https://gas-price.p.rapidapi.com/stateUsaPrice?state=" + currentlocation.getText().toString())
                             .get()
                             .addHeader("x-rapidapi-host", "gas-price.p.rapidapi.com")
-                            .addHeader("x-rapidapi-key", "936940fd03msh5080e5060ea93ccp161cc4jsndf3bef7811dc")
+                            .addHeader("x-rapidapi-key", "hidden")
                             .build();
 
                     Response response = client.newCall(request).execute();
